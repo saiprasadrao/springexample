@@ -4,7 +4,7 @@ pipeline{
     stage('Compile Source Code'){
       steps{
         echo 'Compiling Code'
-        mvn complie
+        mvn compile
       }
     }
   }
