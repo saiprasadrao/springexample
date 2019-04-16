@@ -1,5 +1,7 @@
 pipeline{
-  agent any
+  agent {
+    label 'ec2-slave1'
+  }
   stages{
     stage('Compile Source Code'){
       steps{
